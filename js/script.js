@@ -64,7 +64,7 @@ catList(cats);
 // question 8
 
 function createCats(cats) {
-  html = "";
+  let html = "";
 
   for (let i = 0; i < cats.length; i++) {
     let catAge = "Age unknown";
